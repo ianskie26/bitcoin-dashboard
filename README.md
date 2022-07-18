@@ -1,18 +1,34 @@
-# Getting Started with Create React App
+# Bitcoin Dashboard
+BTC exchange rate and Bitcoin newsfeed in one dashboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Screenshot
+![screencapture-localhost-3000-2022-07-18-23_00_07](https://user-images.githubusercontent.com/81738932/179542669-2f233a24-0edd-4e9f-9713-c6e426b69925.png)
+
+Mobile
+
+![screencapture-localhost-3000-2022-07-18-23_00_42](https://user-images.githubusercontent.com/81738932/179542690-2fcc3e4f-e3ff-4385-a762-29c46569f0a7.png)
+
+## Project
+I used React in building this bitcoin dashboard and gathered both the exchange rate and newsfeed from an API. In this project, I was able to practice using the State hook. I also learned how to hide your API key in the backend. Initially, i've experienced issues installing dependencies for Express, Cors, and DotEnv but I was able to solve it by removing the node_modules.
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start:frontend`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm run start:backend`
+
+Runs the backend on port 8000
 
 ### `npm test`
 
@@ -45,26 +61,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
